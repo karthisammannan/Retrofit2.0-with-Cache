@@ -26,9 +26,7 @@ import static okhttp3.logging.HttpLoggingInterceptor.Level.NONE;
 
 
 public class ApiClient {
-    // http://192.168.0.30/mcarsWebServices/api/login/username=passwordadmin@mcars.in&=myadmin
-    // public static final String BASE_URL = "http://192.168.0.25:81/mcars/";
-//    public static final String BASE_URL = "http://192.168.0.25/mcars/";
+
     public static final String BASE_URL = "http://www.karthi.zz.mu/";
 
     private static Retrofit retrofit1 = null;
